@@ -1,0 +1,132 @@
+
+/***************************************************
+    External Style Sheet for logon framework
+****************************************************/
+
+#item_self {
+	   float:left;
+	   border-style:none none none none;
+	   height:130px;
+	   width:630px;
+	   margin-top:10px;	   
+	   margin-bottom:10px;
+	   margin-left:10px;
+	   margin-right:10px;	
+	}
+
+#item_pic {
+	   float:left;
+	   border-style:double;
+	   border-width:middle;
+	   border-radius:12px;
+	   border-color:rgb(200,200,200);
+	   height:100px;
+	   width:100px;	  
+	   margin:10px 10px 0px 10px; 
+	}	
+
+#tips_pic {
+	   float:left;
+	   font-size:6px;
+	   height:12px;
+	   width:100px;
+	   text-align:center;
+	   border-style:none;
+	   margin:-5px 10px 0px 15px;
+	   padding:0px 0px 0px 0px;
+	   color:rgb(100,100,100);
+	}
+	
+#item_work {
+	   clear:both;
+	   border-style:solid none none none;
+	   border-width:middle;
+	   border-color:rgb(100,100,100);
+	   height:150px;
+	   width:760px;	
+	   margin:10px 10px 10px 10px;  
+	}
+
+#item_ctrl {
+	   border-style:solid none none none;
+	   border-width:middle;
+	   border-color:rgb(100,100,100);
+	   height:40px;
+	   width:760px;	
+	   margin:10px 10px 10px 10px; 
+	}
+
+#info_self,#info_work {
+     margin-top:15px;
+	}
+/*
+table {
+	  border-style:solid;
+	  border-color:white;
+	}
+*/
+table td {
+	   vertical-align:center;
+     padding-top:8px;
+     padding-bottom:8px;
+     /*border-style:solid;
+     border-color:blue;
+     word-break;break-word;*/
+	}	
+
+#t1_r1_c1,    #t1_r1_c3,    
+#t1_r2_c1,    #t1_r2_c3,
+#t1_r3_c1,    #t1_r3_c3,
+#t2_r1_c1,    #t2_r1_c3,
+#t2_r2_c1,    #t2_r2_c3,
+#t2_r3_c1,    #t2_r3_c3 {
+	   width:80px;
+	}
+  #t1_r1_c2,
+  #t1_r2_c2,
+  #t1_r3_c2 {
+	   width:120px;
+	}
+	#t1_r33_c4 {
+	   width:160px;
+	}
+	#t2_r1_c2,
+	#t2_r2_c2,
+	#t2_r3_c2 {
+	   width:120px;	
+	}
+	#t2_r1_c4,
+	#t2_r2_c4 {
+	   width:120px;	
+	}
+	#t2_r1_c5,#t2_r1_c6 {
+	   width:80px;
+	}
+	
+.t_name {
+	   font-family:'свт╡';
+	   font-size:14px;	   
+	   font-weight:bold;
+	   text-align:right;
+	   color:rgb(80,80,80);	
+	}
+.t_info {
+	   font-size:12px;
+	   text-align:left;
+	   color:rgb(120,120,120);
+	}
+.rev_btn {
+	   border-style:solid;
+	   border-radius:12px;
+	   background-color: rgb(200,200,200);
+	   font-family:'свт╡';
+	   font-size:10px;
+	   text-align:center;
+	   vertical-align:center;
+	   position:relative;
+	   left:200px;
+	   margin-top:13px;
+	   margin-bottom:10px;
+	   padding:10px 30px 10px 30px;
+	   cursor:pointer;
+	}

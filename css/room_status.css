@@ -1,0 +1,186 @@
+/***************************************************
+    External Style Sheet for logon framework
+ ***
+ define the key layout on function page, like logon.php
+****************************************************/
+
+#rs_query_cond { /* 筛选条件布局 */		  
+	  height:60px;
+	  width:760px;
+	  border-style:dashed;
+	  border-radius:8px;
+	  border-width:thin;
+	  border-color:gray;
+	  margin:10px 10px 10px 10px;
+	}
+	
+#rs_query_list { /* 筛选结果布局 */
+	  height:190px;
+	  width:760px;
+	  border-style:none;
+	  border-radius:8px;
+	  border-width:thin;
+	  border-color:gray;	
+	  margin:10px 10px 10px 10px;
+	  overflow:scroll;
+  }
+	
+#rs_query_ctrl { /* 增补控件布局 */	
+		height:60px;
+	  width:760px;
+	  border-style:dashed;
+	  border-radius:8px;
+	  border-width:thin;
+	  border-color:gray;
+	  margin:10px 10px 10px 10px;
+	}
+
+#rs_query_cond_top {
+	  vertical-align:center;
+	  font-family:'幼圆';      
+	  margin-left:10px;
+	  margin-right:10px; 	
+    padding:10px 10px 10px 10px;
+    height:auto;
+}
+
+.r_item {
+	  font-family:'Calibri','幼圆';
+	  font-size:14px;
+	  font-weight:560;	  
+	}
+
+#r_num,#r_style{
+	  width:40px;
+	  font-family:'Calibri','幼圆';
+	  font-size:12px;
+	  text-align:center;
+	  border-style:none;
+	  border-radius:6px;
+	  padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+	  margin-right:25px;
+	  background-color:white;
+	}
+#r_style {
+	  width:60px;
+	}
+#r_status {
+	  width:80px;
+	  font-family:'宋体';
+	  text-align:left;
+	  border-style:none;
+	  border-radius:6px;
+	  padding:5px 5px 5px 5px;
+	  margin-right:18px;
+	}
+
+#r_query,#r_reset {
+	  font-family:'宋体';
+	  font-size:12px;
+	  font-weight:560px;
+    text-align:center;
+	  vertical-align:center;
+	  border-style:solid;
+	  border-radius:6px;
+	  border-width:thin;
+    padding:8px 22px 8px 22px;
+    margin:5px 10px 5px 10px;
+	  background-color:rgb(200,200,200);
+	  cursor:pointer;   
+	}
+
+.rev_btn {
+	   border-style:solid;
+	   border-radius:10px;
+	   background-color: rgb(200,200,200);
+	   font-family:'宋体';
+	   font-size:12px;
+	   text-align:center;
+	   vertical-align:center;
+	   position:relative;
+	   left:200px;
+	   margin-top:13px;
+	   margin-bottom:10px;
+	   padding:10px 30px 10px 30px;
+	   cursor:pointer;
+	}
+
+#qry_list {
+     border-collapse:collapse;
+     width:900px;
+	}
+#qry_list th {
+	   height:28px;
+	   font-weight:normal;
+	   font-family:'Calibri','黑体';
+	   font-size:14px;
+	   padding:10px auto 10px auto;	
+	   background-color:rgb(128,128,128);
+	}
+#qry_list td {
+	   height:25px;
+	}
+.t_num,.t_cnt {
+	   width:60px;
+	   text-align:center;
+	}
+.t_status {
+	   width:80px;
+	   text-align:center;
+	}
+.t_style {
+	   width:80px;
+	   text-align:center;
+	}
+.t_contract {
+	   width:80px;
+	   text-align:left;
+	}
+.t_renter {
+	   width:80px;
+	   text-align:left;
+	}
+.t_phone {
+	   width:80px;
+	   text-align:left;
+	}
+.t_start,.t_stop {
+	   width:80px;
+	   text-align:left;
+	}
+.t_remark {
+	   width:300px;
+	   text-align:left;
+	}
+	
+#no_record {
+	   color:red;
+	   font-family:'Calibri','宋体';
+	   font-size:12px;
+	   text-align:left;
+     padding-top:5px;
+     padding-bottom:5px;
+     padding-left:5px;
+	}
+
+.odd_line {
+	   font-family:'Calibri','宋体';
+	   font-size:12px;
+     background-color:rgb(255,255,255);  
+     /*border-style:dotted;
+     border-width:thin; */ 
+     padding-top:5px;
+     padding-bottom:5px;	   
+	}
+.even_line {
+	   font-family:'Calibri','宋体';
+	   font-size:12px;
+     background-color:rgb(192,192,192);     	   
+     /*border-style:dotted;
+     border-width:thin; */
+     padding-top:10px;
+     padding-bottom:10px;	 
+  }

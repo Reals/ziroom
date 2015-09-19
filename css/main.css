@@ -1,0 +1,142 @@
+
+/***************************************************
+    External Style Sheet for main framework
+****************************************************/
+
+body { /* 框架主体 */
+	    background-color:gray;/*rgb(64,78,50);*/
+      margin-top:10px;
+      margin-bottom:10px;
+	   }	   
+
+/** Class Selector and Attribution**/
+.foot_line { /* 页面分隔线 */
+	     border-style:solid;
+	     width:thin;
+	     margin:15px 20px auto 20px;
+	     color:gray;
+	   }
+.ibox { /* 文本框 */
+	     line-height:40px;	   
+	     border-style:none;  
+	   }
+.ibox span { /* 文本框前面文字 */
+	     font-size:18px;
+	     color:white;
+	   }	   
+	   
+/** ID Selector and Attribution **/
+#framework { /* 主框架 */
+	     width:960px;
+	     height:680px;
+	     margin:auto auto;	     
+	     /*background-color:rgb(24,85,103);*/
+	     background-color:rgb(0,120,216);
+	   }
+#header { /* 页面头部 */
+	     width:100%;
+	     height:20%;
+	     border-style:none;	     
+	     /*background-color:red;*/
+	   }	   
+#main { /* 页面主体 */
+	     width:100%;
+	     height:60%;
+	     border-style:none;
+	     /*background-color:green;*/
+	   }
+#footer { /* 页面脚部 */
+	     width:100%;
+	     height:20%;
+	     border-style:none;
+	     /*background-color:blue;*/
+	   }
+#foot_link { /* 脚部链接内容 */
+	     border-style:none;
+	     text-align:center;
+	     color:white; /*rgb(80,80,80);*/
+	     font-size:12px;
+	     margin:16px auto;
+	     line-height:18px;
+	   }
+	   
+a:link    { color:white;text-decoration:none;} /* 默认样式 */
+a:visited { color:brown;text-decoration:none;} /* 访问后样式 */
+a:hover   { color:black;text-decoration:none;} /* 鼠标移至上面时样式 */
+
+#h_title { /* 大标题 */
+       text-align:center;
+       font-family:"黑体";
+       font-size:32px;
+       font-weight:thin;
+       letter-spacing:1px;
+       position:relative;
+       top:60px;
+       color:white;
+      }
+#h_version {
+	     text-align:right;
+	     font-family:"Calibri";
+	     font-size:12px;
+	     position:relative;
+	     top:70px;
+	     margin-right:25px;
+	     margin-bottom:-5px;
+	     color:rgb(210,210,210);
+	    }
+#login { /* 登陆界面主块 */
+	     font-family:"幼圆";
+	     font-weight:normal;
+	     line-height:40px;
+	     text-align:left;
+	     /*color:rgb(0,128,128);*/
+	     color:white;
+	     position:relative;
+	     margin:20 auto;     
+	    }
+#dialog { /* 登陆界面的位置 */
+	     position:relative;
+	     top:65px;	
+	    }
+#username,#password {
+	     padding:0;
+	     margin:0;
+	     width:160px;
+	     height:20px;
+	    }
+#submit,#reset {
+	     background-color:rgb(0,200,200); /*#70c9e3; rgb(0,128,255);rgb(0,128,128);*/
+	     color:white;
+	     padding-top:8px;
+	     padding-bottom:8px;
+	     margin-top:30px;
+	     width:130px;
+	     font-family:"幼圆";
+	     font-size:16px;
+	     text-align:center;
+	     border-style:none;
+	     border-radius:6px;
+	    }
+#zr_room {
+	     font-family:"宋体";
+	     font-size:14px;
+	     padding:0;
+	     margin-top:10px;
+	     margin-bottom:10px;
+	     width:164px;
+	     border-style:none;
+	     color:rgb(80,80,80);
+	    }
+#forget_tip {
+	     font-family:"宋体";
+	     font-size:12px;
+	     color:rgb(200,200,200);
+	     text-align:center;
+	     padding:0;
+	     margin-top:0px;
+	     margin-bottom:-5px;	     
+	    }
+#forget_tip a:link    { color:gray; text-decoration:underline;} /* 默认样式 */
+#forget_tip a:visited { color:brown;text-decoration:underline;} /* 访问后样式 */
+#forget_tip a:hover   { color:black;text-decoration:underline;} /* 鼠标移至上面时样式 */
+

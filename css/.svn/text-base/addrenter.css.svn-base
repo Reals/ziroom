@@ -1,0 +1,117 @@
+
+/***************************************************
+    External Style Sheet for logon framework
+****************************************************/
+
+#set_main {
+	  background-color:rgb(0,120,216);
+	  height:580px;
+	  width:680px;
+	  margin:auto auto;
+	  border-style:none;
+    border-radius:18px;
+    border-color:rgb(0,120,216):
+	  text-align:center;
+	  position:relative;
+	  top:80px;
+	}
+	
+#set_h1 {
+	  font-family:'Ó×Ô²';
+	  font-size:22px;
+	  text-align:center;
+	  color:white;
+    padding-top:20px;
+	}
+
+#set_u {
+	  font-family:'ËÎÌå';
+	  font-size:12px;
+	  color:white;
+    margin-bottom:-6px;
+    padding:0px;
+	  text-align:center;	
+	  font-weight:normal;  
+	}
+	
+#set_hr {
+	  border-color:gray;
+	  margin:10px 10px 10px 10px;
+	}
+	
+#set_item {
+	  /*border-style:dashed;
+	  border-width:thin;*/
+	  border-radius:8px;
+	  margin:10px 10px 10px 10px;
+	}
+	
+#set_btn {
+	  font-size:15px;	  
+	  text-align:center;
+	  border-style:none;
+	}
+
+#addrenter_submit,#addrenter_cancel {  
+	  border-radius:6px;
+	  margin:10px 10px 10px 10px;
+	  font-family:'Ó×Ô²';
+	  font-size:15px;
+	  padding:5px 30px 5px 30px;
+	  background-color:white;
+	  cursor:pointer;
+	}
+
+.set_t {
+	  font-family:'Calibri','Ó×Ô²';
+	  font-size:15px;
+	  text-align:right;
+	  padding-top:5px;
+	  padding-bottom:5px;
+	  color:white;
+	  width:120px;
+	}
+.set_t span {
+	  font-family:'ËÎÌå';
+	  font-size:12px;
+	  color:red;
+	  text-align:justify;
+	}
+.set_p {
+	  font-family:'Calibri','ËÎÌå';
+	  font-size:15px;
+	  text-align:left;
+	  padding-top:5px;
+	  padding-bottom:5px;
+	  color:white;
+	}	
+
+#r_status {
+	  font-family:'ËÎÌå';
+	  font-size:14px;
+	  text-align:center;
+    width:152px;
+    margin-left:2px;
+	}
+
+#r_start,#r_stop,#r_born,#r_paytime,#r_2date,#r_3date,#r_4date {
+	  margin-left:2px;
+	  width:148px;
+	}
+#r_payway,#r_sex {
+	  margin-left:2px;
+	  width:152px;
+	  padding-top:2px;
+	  padding-bottom:2px;
+	  text-align:center;
+	}
+#r_num {
+	  font-family:'Calibri';
+	  font-size:15px;
+	  text-align:center;
+	  vertical-align:center;
+	  width:120px;
+	  border-style:none;
+	  padding-top:2px;
+	  padding-bottom:2px;
+	}
